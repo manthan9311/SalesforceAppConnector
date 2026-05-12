@@ -1,4 +1,4 @@
-# Salesforce Connector
+# Salesforce Connector 1.0
 
 A local Node.js + browser app that lets you connect to **any Salesforce org**
 using **any of the supported OAuth 2.0 flows** for both **Connected Apps**
