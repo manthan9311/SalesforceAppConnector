@@ -1,0 +1,29 @@
+{
+  "name": "salesforce-connector",
+  "version": "1.0.0",
+  "description": "Connect to any Salesforce org using any of the supported OAuth 2.0 flows. Works with Connected Apps and External Client Apps.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "keywords": [
+    "salesforce",
+    "oauth",
+    "jwt",
+    "connected-app",
+    "external-client-app"
+  ],
+  "license": "MIT"
+}
